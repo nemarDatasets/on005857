@@ -1,9 +1,10 @@
 {
-    "Name": "[Unspecified]",
+    "Name": "ltpDelayRepFRReadOnly",
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
         "[Adam Broitman]",
         "[Michael Kahana]"
-    ]
+    ],
+    "License": "CC0"
 }
