@@ -1,19 +1,35 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "ltpDelayRepFRReadOnly",
+  "description": "A raw electrophysiological dataset containing long-term potentiation (LTP) delay repetition free recall task recordings. This dataset provides neuroimaging data organized according to the Brain Imaging Data Structure (BIDS) standard, facilitating standardized analysis and sharing of electrophysiological measurements collected during cognitive tasks involving memory encoding and retrieval.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "[Adam Broitman]": {},
     "[Michael Kahana]": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005857.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "long-term potentiation"
+    },
+    {
+      "term": "free recall"
+    },
+    {
+      "term": "memory encoding"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005857",
       "identifier_type": "URL",
@@ -33,53 +49,29 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005857.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "305.3 GB (112 files)"
   ],
   "formats": [
     ".bdf",
     ".json",
     ".md",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "A raw electrophysiological dataset containing long-term potentiation (LTP) delay repetition free recall task data. This dataset captures neural EEG recordings during a memory task designed to investigate the mechanisms of long-term potentiation and repetition effects on free recall performance. The dataset includes behavioral responses and electrophysiological signals recorded during the experimental sessions.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "long-term potentiation"
-    },
-    {
-      "term": "free recall"
-    },
-    {
-      "term": "memory"
-    },
-    {
-      "term": "repetition effects"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "behavioral data"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "delay"
-    }
-  ],
-  "source_hash": "1c22128bc632feda2d7568f334131ff06a0bda01f32667ea07ad7f10e61bc4cc"
+  "source_hash": "44eb80785f9e3db0a1c7291b62eb01a7b1e29f27567317e7be66e680ffa71ac9"
 }
