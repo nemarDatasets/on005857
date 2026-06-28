@@ -1,11 +1,17 @@
 {
-    "Name": "ltpDelayRepFRReadOnly",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "[Adam Broitman]",
-        "[Michael Kahana]"
-    ],
-    "License": "CC0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds005857.v1.0.0"
+  "Name": "ltpDelayRepFRReadOnly",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "[Adam Broitman]",
+    "[Michael Kahana]"
+  ],
+  "License": "CC0",
+  "DatasetDOI": "10.82901/nemar.on005857",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005857.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
